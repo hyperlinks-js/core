@@ -1,0 +1,53 @@
+{
+  "name": "@hyperlinks-js/hyperlinks",
+  "version": "1.0.0",
+  "description": "A JavaScript Library to make anchor tags more beautiful !!!",
+  "browser": "dist/index.bundle.js",
+  "module": "dist/index.bundle.js",
+  "scripts": {
+    "build": "npm run lint:fix && webpack",
+    "watch": "npm run lint:fix && npm run build -- --watch",
+    "help": "webpack --help",
+    "lint:fix": "eslint --fix . --ignore-path ../../.eslintignore --ext js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyperlinks-js/core.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Anchor-Tags",
+    "Library",
+    "Browser"
+  ],
+  "author": {
+    "name": "hyperlinks-js"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hyperlinks-js/core.git"
+  },
+  "homepage": "https://github.com/hyperlinks-js/core.git",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/plugin-transform-runtime": "^7.16.4",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/runtime": "^7.16.3",
+    "babel-loader": "^8.2.3",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "css-loader": "^6.5.1",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "mini-css-extract-plugin": "^2.4.5",
+    "style-loader": "^3.3.1",
+    "terser-webpack-plugin": "^5.2.5",
+    "webpack": "^5.64.2",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "@hyperlinks-js/tooltip": "^1.0.1"
+  }
+}
