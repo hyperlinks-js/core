@@ -48,6 +48,6 @@
     "webpack-cli": "^4.9.1"
   },
   "dependencies": {
-    "@hyperlinks-js/tooltip": "^1.0.1"
+    "@hyperlinks-js/tooltip": "^1.1.0"
   }
 }
