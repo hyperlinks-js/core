@@ -8,7 +8,7 @@
     "build": "npm run lint:fix && webpack",
     "watch:core": "npm run lint:fix && webpack --watch",
     "help": "webpack --help",
-    "lint:fix": "eslint --fix . --ignore-path ../../.eslintignore --ext js"
+    "lint:core:fix": "eslint --fix . --ignore-path ../../.eslintignore --ext js"
   },
   "repository": {
     "type": "git",
