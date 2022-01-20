@@ -1,6 +1,6 @@
 {
   "name": "@hyperlinks-js/hyperlinks",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A JavaScript Library to make anchor tags more beautiful !!!",
   "browser": "dist/index.bundle.js",
   "module": "dist/index.bundle.js",
