@@ -1,6 +1,6 @@
 {
   "name": "@hyperlinks-js/hyperlinks",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "A JavaScript Library to make anchor tags more beautiful !!!",
   "browser": "dist/index.bundle.js",
   "module": "dist/index.bundle.js",
@@ -8,7 +8,7 @@
     "build": "npm run lint:fix && webpack",
     "watch:core": "npm run lint:fix && webpack --watch",
     "help": "webpack --help",
-    "lint:fix": "eslint --fix . --ignore-path ../../.eslintignore --ext js"
+    "lint:core:fix": "eslint --fix . --ignore-path ../../.eslintignore --ext js"
   },
   "repository": {
     "type": "git",
@@ -48,6 +48,6 @@
     "webpack-cli": "^4.9.1"
   },
   "dependencies": {
-    "@hyperlinks-js/tooltip": "^1.0.1"
+    "@hyperlinks-js/tooltip": "^1.1.0"
   }
 }
