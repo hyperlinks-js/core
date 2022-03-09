@@ -5,8 +5,8 @@
   "browser": "dist/index.bundle.js",
   "module": "dist/index.bundle.js",
   "scripts": {
-    "build": "npm run lint:fix && webpack",
-    "watch:core": "npm run lint:fix && webpack --watch",
+    "build": "npm run lint:core:fix && webpack",
+    "watch:core": "npm run lint:core:fix && webpack --watch",
     "help": "webpack --help",
     "lint:core:fix": "eslint --fix . --ignore-path ../../.eslintignore --ext js"
   },
