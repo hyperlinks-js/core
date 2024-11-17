@@ -1,0 +1,31 @@
+{
+  "name": "@criticalcarpet/hyperlinks",
+  "version": "1.0.0",
+  "description": "A JavaScript library to make 'Anchor tags' more beautiful !",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "node src/build.js"
+  },
+  "keywords": [
+    "Web",
+    "Hyperlinks",
+    "Anchor tags",
+    "Links",
+    "Zero dependencies",
+    "Lightweight"
+  ],
+  "author": "Criticalcarpet",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/criticalcarpet/hyperlinks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/criticalcarpet/hyperlinks/issues"
+  },
+  "homepage": "https://github.com/criticalcarpet/hyperlinks#readme",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "0.24.0"
+  }
+}

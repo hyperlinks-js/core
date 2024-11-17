@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head hyperlinksTheme="dark">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boot.js TEST SUITE</title>
+    <script src="../src/index.js" type="module"></script>
+    <!-- Link the Script -->
+  </head>
+  <body>
+    <a href="https://facebook.com" class="hyperlinks" id="test-subject"
+      >Github</a
+    >
+    <a href="https://github.com" class="hyperlinks">Github</a>
+    <a href="https://facebook.com" class="hyperlinks">Github</a>
+    <button onclick="run()">Click to change</button>
+    <button onclick="duplicate()">Click to duplicate</button>
+    <script>
+      function run() {
+        const subject = document.getElementById("test-subject");
+        subject.href = "https://google.com";
+      }
+      function duplicate() {
+        const originalElement = document.getElementById("test-subject");
+        const duplicateElement = originalElement.cloneNode(true);
+        document.body.appendChild(duplicateElement);
+      }
+    </script>
+  </body>
+</html>
